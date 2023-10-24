@@ -1,0 +1,22 @@
+{
+  "name": "typescript-part-1",
+  "version": "1.0.0",
+  "description": "",
+  "strict": true,
+  "main": "functions.js",
+  "scripts": {
+    "build": "rd /s /q dist && tsc",
+    "start": "node dist/index.js",
+    "bs": "npm run build && npm run start"
+  },
+  "author": "Vitalii Fetisov",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.7",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2"
+  }
+}
